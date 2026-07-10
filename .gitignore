@@ -1,0 +1,33 @@
+# Virtual environment (never committed)
+.venv/
+
+# Logs
+logs/
+
+# faster-whisper model cache (~460MB, downloaded on first run)
+data/models/
+
+# Transcript history (§8.5) — personal dictation content, never committed
+data/history.jsonl
+data/history.jsonl.tmp
+
+# Python bytecode
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Personal data — the learned dictionary is Nicolas's vocabulary, never published
+data/dictionary.json
+data/dictionary.json.tmp
+data/dictionary.json.bad-*
+
+# Internal build-process docs — kept locally, not part of the published product
+CLAUDE.md
+docs/handoff-*.md
+docs/workflow-audit.md
+
+# Dev scratch scripts
+scratch_*.py
+
+# Personal voice recording - dev fixture, never published
+tests/sample_10s.wav

@@ -1,0 +1,22 @@
+{
+  "hotkey": "alt_r",
+  "suppress_hotkey": true,
+  "dictation_mode": "dual",
+  "double_tap_sec": 0.35,
+  "model_size": "base.en",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "model_cache_dir": "data/models",
+  "sample_rate": 16000,
+  "max_recording_sec": 90,
+  "claude_model": "claude-haiku-4-5-20251001",
+  "claude_timeout_sec": 10,
+  "inject_mode": "paste",
+  "paste_restore_delay_ms": 300,
+  "max_dictionary_prompt_entries": 60,
+  "min_correction_similarity": 0.45,
+  "learned_entry_autoenable": true,
+  "correction_watcher_enabled": true,
+  "correction_watch_sec": 45,
+  "correction_watch_poll_sec": 2.5
+}
